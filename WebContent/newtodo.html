@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  	<title>Create a New To-Do Item!</title>
+	</head>
+	 
+	<body>
+		<form action="../jersey.server/example/todos" method="POST">
+		
+		Here you can create a new to-do item for our example application! <br>
+		Please enter an id, title, and description for your to-do item. <br>
+		
+			<h2>
+			  	<label for="id">ID:</label>
+				<br>
+			  	<input name="id" />
+			</h2>
+			
+
+			
+			<h2>
+			  	<label for="title">Title:</label>
+				<br>
+			  	<input name="title" />
+			</h2>
+			
+
+			
+			<h2>
+			  	Description:
+				<br>
+			  	<TEXTAREA NAME="description" COLS=30 ROWS=5></TEXTAREA>
+			</h2>
+			
+
+			<input type="submit" value="Submit" />
+		</form>
+	</body>
+
+</html> 
